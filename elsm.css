@@ -1,0 +1,319 @@
+body {
+    background-image: url("sunset.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo {
+    border-radius:50%;
+    margin-left:40%;
+    margin-top:15px;
+    position:absolute;
+    padding:10px;
+    display:inline;
+}
+@media (max-width: 400px){
+   #logo {
+       width: 100px;
+       height: 100px;
+       margin-top:5px;
+       position: relative;
+       margin-left: 30%;
+   }
+}
+
+span  {
+    font-weight:bolder;
+    font-size: 30px;
+}
+nav {
+    margin: 8px;
+    display:inline;
+    margin-top:45px;
+}
+#mainNavbar {
+    text-align:center;
+    padding-right: 20px;
+    margin-left:48%;
+    margin-bottom:30px;
+    font-size:18px;
+}
+#name {
+    margin-top:0px;
+    padding-left:20px;
+    font-family: 'Fredoka One', cursive;
+    font-size:40px;
+    color:#ffdd1e;;
+    font-weight: lighter;
+}
+#name:hover {
+    color: #ffdd1e;
+    filter: drop-shadow(16px 16px 10px black);
+}
+#nav-item {
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+
+}
+#firstrow {
+    display:flex;
+    padding-top:70px;
+    flex: 1 1 auto;
+}
+#intro {
+    display:flex;
+    padding:15px;
+    margin-top:5%;
+    margin-left:15rem;
+    margin-right:15rem;
+    font-weight:lighter;
+    color:rgba(0, 18, 121, 0.829);
+    line-height:1.9;
+    font-size:24px;
+    font-family: 'Fredoka One', cursive;
+}
+#about {
+    display:flex;
+    padding:15px;
+    margin-top:5%;
+    margin-left:15rem;
+    margin-right:15rem;
+    font-weight:lighter;
+    color:rgba(0, 18, 121, 0.829);
+    line-height:1.9;
+    font-size:24px;
+    font-family: 'Fredoka One', cursive;
+    padding-bottom:4rem;
+    border-bottom: solid rgba(0,18,121, 0.821) 4px;
+}
+.heading {
+    display:block;
+    padding-right:19px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(255, 209, 57);
+    filter: drop-shadow(4px 4px 1px rgba(0, 11, 168, 0.829));
+    font-weight: lighter;
+    font-size:40px;
+    line-height:1.1;
+}
+.cast {
+    display:block;
+    margin-top:4rem;
+    margin-left:50rem;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(255, 209, 57);
+    filter: drop-shadow(4px 4px 1px rgba(0, 11, 168, 0.829));
+    font-weight: lighter;
+    font-size:55px;
+    line-height:1.1;
+}
+#vidintro{
+    display:block;
+    margin-top:4rem;
+    margin-left:20rem;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(255, 209, 57);
+    filter: drop-shadow(4px 4px 1px rgba(0, 11, 168, 0.829));
+    font-weight: lighter;
+    font-size:45px;
+    line-height:1.1;
+    margin-top:6rem; 
+}
+#ric {
+    display:block;
+    margin-left:25rem;
+    margin-right:25rem;
+    border-radius: 50%;
+    width:50%;
+}
+#ricquote {
+    margin-top: 8rem;
+    margin-left:1rem;
+    margin-right:1rem;
+    width: 360px;
+}
+#skelequote {
+    margin-top:10rem;
+    margin-left:33rem;
+    margin-right:10rem;
+}
+#skele {
+    width:50%;
+    border-radius:50%;
+}
+
+.button {
+    background-color: transparent;
+    color: rgba(75, 123, 255, 0.123);
+    margin-top:5%;;
+    margin-bottom:9px;
+    margin-left:5px;
+    margin-right:5px;
+    font-size:25px;
+    border:none;
+    padding:8px;
+}
+#buttons {
+    margin-left:256px;
+    
+}
+#yt:hover {
+    color: #ffdd1e;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #ffdd1e;
+}
+#yt {
+    color: rgba(0, 102, 255, 0.829);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.video {
+    display:flex;
+    padding:15px;
+    margin-left:25%;
+    margin-top:1%;
+    margin-bottom:1%;
+    filter: drop-shadow(6px 6px 3px rgba(0, 11, 168, 0.281));
+}
+
+#links {
+    color: rgb(0, 0, 0);
+    
+    border: 2px solid black;
+    padding:3px;
+    background-color: rgba(202,220,220,.3);
+
+}
+#bottom {
+    display:flex;
+    justify-content: space-evenly;
+    height: 400px;
+}
+#time {
+    color:#ffdd1e;
+    font-family: 'Fredoka One', cursive;
+    font-weight:lighter;
+    font-size: 23px;
+    display:flex;
+}
+::selection {
+    color:rgba(0, 11, 168, 0.829);
+    background:rgb(255, 221, 30);
+}
+#characters {
+    margin-top:5rem;
+    margin-left:10rem;
+}
+.card-title{
+    font-size:24px;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-bottom: solid rgba(255, 255, 255, .3) 3px;
+}
+.card-body{
+    background-color:rgba(0, 18, 121, 0.897);
+}
+.card-text{
+    color:white;
+    font-family: sans-serif;
+    font-size:18px;
+}
+.card{
+    background-color:rgb(0,0,0,0);
+}
+.char{
+    margin-right:3rem;
+}
+@media (max-width: 1350px){
+
+    #logo {
+        display:flex !important;
+        width:180px !important;
+        height: 180px !important;
+        position: relative !important;
+    }
+}
+@media (max-width: 800px){
+    #name {
+        font-size: 20px !important;
+    }  
+    #logo {
+        display:flex !important;
+        width:120px !important;
+        height: 120px !important;
+        position: relative !important;
+    }
+    #intro .heading {
+        font-size:25px;
+        margin-left:5px;
+    }
+    #intro {
+        display: inline !important;  
+    }
+    #intro {
+        font-size: 18px !important;
+        margin-left: 5px !important;
+    }
+    #mainNavbar {
+        display:none;
+    }
+    #ric{
+        margin-left: 5px !important;
+        width:60% !important;
+        margin-right: 0px;
+        height:100px;
+    }
+    #ricquote {
+        margin-top: 5px !important;
+        margin-right:500px !important;
+        width: 90% !important;
+        
+    }
+    #skelequote{
+        margin-left: 5px !important;
+        width:100% !important;
+        margin-right: 0px;
+        margin-top: 15px !important;
+        
+    }
+    #skele {
+        margin-top: 10px !important;
+        margin-right:500px !important;
+        width: 60% !important;
+    }
+    #about .heading {
+        font-size:25px;
+        margin-left:5px;
+    }
+    #about {
+        font-size: 18px !important;
+        margin-left: 5px !important;
+        display: inline !important;
+        border-bottom: none !important;
+    }
+    .cast {
+        font-size:35px !important;
+        margin-left: 50px !important;
+        margin-top:30px !important;
+    }
+    #characters {
+        margin-top:30px !important;
+        margin-left: 20px !important;
+    }
+    #vidintro {
+        margin-left: 10px !important;
+        font-size:35px !important;
+        margin-top:30px !important;
+    }
+    #video {
+        margin-left:0px !important;
+    }
+    #buttons {
+        font-size: 15px !important;
+        margin-left: 10px !important;
+    }
+    #bottom {
+        height:200px !important;
+    }
+ }
