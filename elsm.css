@@ -41,7 +41,7 @@ nav {
     margin-top:0px;
     padding-left:20px;
     font-family: 'Fredoka One', cursive;
-    font-size:40px;
+    font-size:35px;
     color:#ffdd1e;;
     font-weight: lighter;
 }
@@ -98,15 +98,15 @@ nav {
 .cast {
     display:block;
     margin-top:4rem;
-    margin-left:50rem;
+    margin-left:45rem;
     font-family: 'Fredoka One', cursive;
     color: rgb(255, 209, 57);
     filter: drop-shadow(4px 4px 1px rgba(0, 11, 168, 0.829));
     font-weight: lighter;
-    font-size:55px;
+    font-size:50px;
     line-height:1.1;
 }
-#vidintro{
+.vidintro{
     display:block;
     margin-top:4rem;
     margin-left:20rem;
@@ -133,7 +133,7 @@ nav {
 }
 #skelequote {
     margin-top:10rem;
-    margin-left:33rem;
+    margin-left:30rem;
     margin-right:10rem;
 }
 #skele {
@@ -225,8 +225,7 @@ nav {
 .char{
     margin-right:3rem;
 }
-@media (max-width: 1350px){
-
+@media (max-width:1840px) {
     #logo {
         display:flex !important;
         width:180px !important;
@@ -234,6 +233,83 @@ nav {
         position: relative !important;
     }
 }
+@media (max-width:1500px) {
+    #vidintro {
+        margin-left: 10px !important;
+        font-size:35px !important;
+        margin-top:30px !important;
+    }
+}
+@media (max-width: 1350px){
+    #intro .heading {
+        font-size:25px;
+        margin-left:5px;
+    }
+    #intro {
+        display: inline !important;  
+        margin-right:5rem !important;
+        margin-left: 5rem !important;
+    }
+    #about .heading {
+        font-size:25px;
+        margin-left:5px;
+    }
+    #about {
+        display: inline !important;  
+        margin-right:5rem !important;
+        margin-left: 5rem !important;
+        border-bottom: none !important;
+    }
+    .cast {
+        font-size:35px !important;
+        margin-left: 10px !important;
+        margin-top:30px !important;
+    }
+    
+}
+@media (max-width: 1700px){
+    
+    #name {
+        font-size: 30px !important;
+    }  
+    #ric{
+        margin-left: 20rem !important;
+        width:50% !important;
+        margin-right: 20rem;
+       
+    }
+    #ricquote {
+        margin-top: 45px !important;
+        margin-left:10rem !important;
+        width: 50% !important;
+        
+    }
+    #skelequote{
+        margin-left: 20rem !important;
+        width:50% !important;
+        margin-right: 20rem;
+        margin-top: 80px !important;
+        
+    }
+    #skele {
+        margin-top: 10px !important;
+        margin-left:10rem !important;
+        width: 50% !important;
+    }
+    #intro .heading {
+        font-size:25px;
+        margin-left:5px;
+    }
+    #about .heading {
+        font-size:25px;
+        margin-left:5px;
+    }
+    .cast {
+        font-size:45px !important;
+        margin-left: 300px !important;
+        margin-top:30px !important;
+    }
+    
 @media (max-width: 800px){
     #name {
         font-size: 20px !important;
@@ -262,11 +338,10 @@ nav {
         margin-left: 5px !important;
         width:60% !important;
         margin-right: 0px;
-        height:100px;
     }
     #ricquote {
         margin-top: 5px !important;
-        margin-right:500px !important;
+        margin-left: 0rem !important;
         width: 90% !important;
         
     }
@@ -279,7 +354,7 @@ nav {
     }
     #skele {
         margin-top: 10px !important;
-        margin-right:500px !important;
+        margin-left:2rem !important;
         width: 60% !important;
     }
     #about .heading {
@@ -301,7 +376,7 @@ nav {
         margin-top:30px !important;
         margin-left: 20px !important;
     }
-    #vidintro {
+    .vidintro {
         margin-left: 10px !important;
         font-size:35px !important;
         margin-top:30px !important;
