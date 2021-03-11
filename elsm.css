@@ -41,7 +41,7 @@ nav {
     margin-top:0px;
     padding-left:20px;
     font-family: 'Fredoka One', cursive;
-    font-size:35px;
+    font-size:35px !important;
     color:#ffdd1e;;
     font-weight: lighter;
 }
@@ -106,7 +106,19 @@ nav {
     font-size:50px;
     line-height:1.1;
 }
-.vidintro{
+#vidintro{
+    display:block;
+    margin-top:4rem;
+    margin-left:20rem;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(255, 209, 57);
+    filter: drop-shadow(4px 4px 1px rgba(0, 11, 168, 0.829));
+    font-weight: lighter;
+    font-size:45px;
+    line-height:1.1;
+    margin-top:6rem; 
+}
+#vidintro2{
     display:block;
     margin-top:4rem;
     margin-left:20rem;
@@ -235,6 +247,11 @@ nav {
 }
 @media (max-width:1500px) {
     #vidintro {
+        margin-left: 10px !important;
+        font-size:35px !important;
+        margin-top:30px !important;
+    }
+    #vidintro2 {
         margin-left: 10px !important;
         font-size:35px !important;
         margin-top:30px !important;
@@ -376,7 +393,12 @@ nav {
         margin-top:30px !important;
         margin-left: 20px !important;
     }
-    .vidintro {
+    #vidintro {
+        margin-left: 10px !important;
+        font-size:35px !important;
+        margin-top:30px !important;
+    }
+    #vidintro2 {
         margin-left: 10px !important;
         font-size:35px !important;
         margin-top:30px !important;
